@@ -5,6 +5,11 @@
 
 1. Copy all the java files into your Android project.
 
+Alternative:
+1. Inside Android Studio, click on File->New->Import Module.
+2. Select the source directory for this library.
+3. Click Finish.
+
 <h4>USAGE</h4>
 1. First, create a DbDataSource object. This object should only be created once. This will create the database.
 	```
