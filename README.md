@@ -12,9 +12,7 @@
 	```
 2. To create a table inside the database, call the onCreateTable function.
 	```
-	DBDataSource trial = new DBDataSource(this);
-	```
-	      String tableName = "accounts";
+	String tableName = "accounts";
         String[] columnNames = {"name", "authorization_key"};
         String[] columnTypes = {"text", "text"};
         boolean[] uniques = {false, false};
@@ -23,8 +21,8 @@
         String[] refColumns = {"", ""};
         
         trial.onCreateTable(tableName, columnNames, columnTypes, uniques, foreignKeys, refTables, refColumns);
-  ```  
-  3. Once the tables are installed, you can
+  	```  
+  3. Once the tables are installed, you can:
   <ul>
   <li>Insert row</li>
   <li type="square">Delete row</li>
