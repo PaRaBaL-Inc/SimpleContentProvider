@@ -1,5 +1,5 @@
 # SimpleContentProvider
-<h3><b>Simple Content Provider/b></h3>
+<h3><b>Simple Content Provider</b></h3>
 
 <h4> SETUP </h4>
 
