@@ -6,6 +6,7 @@
 1. Copy all the java files into your Android project.
 
 Alternative:
+
 1. Inside Android Studio, click on File->New->Import Module.
 2. Select the source directory for this library.
 3. Click Finish.
